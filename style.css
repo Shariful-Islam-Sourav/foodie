@@ -1,0 +1,49 @@
+* {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    font-size: 18px;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 100px;
+    margin-bottom: 200px;
+}
+.logo-txt a{
+    font-size: 30px;
+    letter-spacing: 4px;
+    color: #fe4a2e;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li a{
+    padding: 0px 20px;
+    color: rgba(0, 0, 0, 0.822);
+    transition: 0.4s all;
+}
+ul li a:hover {
+    color: #fe4a2e;
+}
+.signup {
+    padding: 10px 25px;
+    border-radius: 25px;
+}
+.btn {
+    color: #fff;
+    background: linear-gradient(#fb994c,#fe4a2e);
+    transition: 1s all;
+}
+.btn:hover {
+    background: #fff;
+    box-shadow: 1px 1px 15px #777;
+}
