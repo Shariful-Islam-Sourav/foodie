@@ -4,6 +4,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+h1,
+h2,
+h3,
+p {
+  color: #4b4a4a;
+}
 a {
   text-decoration: none;
   font-size: 18px;
@@ -64,7 +70,6 @@ ul li a:hover {
 }
 .text-content {
   width: 30%;
-  color: #4b4a4a;
 }
 .hero-text {
   margin-right: 15%;
@@ -91,6 +96,48 @@ ul li a:hover {
   margin-left: 15%;
 }
 .contact {
-    padding: 15px 40px;
-    border-radius: 30px;
+  padding: 15px 40px;
+  border-radius: 30px;
+}
+.reciepe-section {
+  text-align: center;
+  margin-bottom: 150px;
+}
+.reciepe-section h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.reciepe-section p {
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+.recipe-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  width: 320px;
+  height: 470px;
+  margin: 0px 50px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 15px rgba(119, 119, 119, 0.486);
+  text-align: start;
+}
+.card img {
+  width: 280px;
+  height: 200px;
+  margin: 20px;
+  border-radius: 15px;
+}
+.card h3 {
+  font-size: 28px;
+}
+.card p {
+    line-height: 28px;
+    font-size: 16px;
+}
+.card h3,
+.card p {
+  margin: 10px 10px 10px 15px;
 }
