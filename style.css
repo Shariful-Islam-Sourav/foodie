@@ -8,15 +8,22 @@ a {
     text-decoration: none;
     font-size: 18px;
 }
+h1 {
+    font-size: 54px;
+}
+p {
+    font-size: 20px;
+}
 header {
     display: flex;
     align-items: center;
     justify-content:space-around;
     height: 100px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 .logo-txt a{
     font-size: 30px;
+    font-weight: 700;
     letter-spacing: 4px;
     color: #fe4a2e;
 }
@@ -39,6 +46,7 @@ ul li a:hover {
     border-radius: 25px;
 }
 .btn {
+    font-weight: 700;
     color: #fff;
     background: linear-gradient(#fb994c,#fe4a2e);
     transition: 1s all;
@@ -46,4 +54,28 @@ ul li a:hover {
 .btn:hover {
     background: #fff;
     box-shadow: 1px 1px 15px #777;
+}
+.flexible {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+.left-content {
+    width: 30%;
+    margin-right: 15%;
+    color: #4b4a4a;
+}
+.orange {
+    color: #fe702e;
+}
+.left-content p , .left-content h1{
+   margin-bottom: 35px;
+}
+.order {
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+.order:hover {
+    color:#fe702e
 }
