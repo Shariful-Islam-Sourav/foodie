@@ -17,7 +17,7 @@ a {
 h1 {
   font-size: 54px;
 }
-h2{
+h2 {
   font-size: 35px;
 }
 p {
@@ -137,19 +137,46 @@ ul li a:hover {
   font-size: 28px;
 }
 .card p {
-    line-height: 28px;
-    font-size: 16px;
+  line-height: 28px;
+  font-size: 16px;
 }
 .card h3,
 .card p {
   margin: 10px 10px 10px 20px;
+}
+.social-handles h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.social-box {
+  margin-bottom: 130px;
+}
+.social-card {
+  height: 200px;
+  width: 70%;
+  border-radius: 25px;
+  box-shadow: 1px 1px 15px rgba(119, 119, 119, 0.616);
+  margin-bottom: 0px;
+}
+.social-items {
+  margin-right: 5%;
+  margin-left: 5%;
+  text-align: center;
+}
+.social-items a {
+  font-size: 60px;
+  color: #4b4a4a;
+  transition: 0.5s all;
+}
+.social-items a:hover {
+  color: #fe5f2e;
 }
 .book-section {
   background: #fff4ec;
   height: 750px;
   margin-bottom: 0px;
 }
-.book-img img{
+.book-img img {
   border-radius: 25px;
   box-shadow: 1px 1px 15px rgba(119, 119, 119, 0.486);
 }
@@ -175,7 +202,8 @@ ul li a:hover {
   border-style: none;
   box-shadow: 1px 1px 8px rgba(119, 119, 119, 0.486);
 }
-#date, #email {
+#date,
+#email {
   padding: 14px 10px;
   color: #777;
   margin-right: 3px;
@@ -209,7 +237,7 @@ footer {
   flex-direction: column;
   height: 200px;
   background: rgb(54, 53, 53);
-  align-items:center;
+  align-items: center;
   justify-content: center;
 }
 footer h2,
@@ -218,5 +246,7 @@ footer p {
   margin-bottom: 10px;
 }
 footer small {
-  color: rgba(173, 171, 171, 0.767)
+  color: rgba(173, 171, 171, 0.767);
 }
+
+/* ------------------------------------END--------------------------------------------------------- */
