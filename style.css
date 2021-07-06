@@ -146,7 +146,8 @@ ul li a:hover {
 }
 .book-section {
   background: #fff4ec;
-  height: 650px;
+  height: 750px;
+  margin-bottom: 0px;
 }
 .book-img img{
   border-radius: 25px;
@@ -202,4 +203,20 @@ textarea:focus,
 input:focus {
   outline: none;
   border: 1px solid orange;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  background: rgb(54, 53, 53);
+  align-items:center;
+  justify-content: center;
+}
+footer h2,
+footer p {
+  color: rgb(211, 211, 211);
+  margin-bottom: 10px;
+}
+footer small {
+  color: rgba(173, 171, 171, 0.767)
 }
