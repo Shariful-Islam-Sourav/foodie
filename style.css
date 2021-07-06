@@ -17,6 +17,9 @@ a {
 h1 {
   font-size: 54px;
 }
+h2{
+  font-size: 35px;
+}
 p {
   font-size: 20px;
 }
@@ -139,5 +142,64 @@ ul li a:hover {
 }
 .card h3,
 .card p {
-  margin: 10px 10px 10px 15px;
+  margin: 10px 10px 10px 20px;
+}
+.book-section {
+  background: #fff4ec;
+  height: 650px;
+}
+.book-img img{
+  border-radius: 25px;
+  box-shadow: 1px 1px 15px rgba(119, 119, 119, 0.486);
+}
+.book-text {
+  margin-left: 15%;
+}
+.book-text h2 {
+  margin-bottom: 5px;
+}
+.book-text p {
+  margin-bottom: 20px;
+}
+.book-text ::placeholder {
+  font-size: 16px;
+  padding: 10px;
+}
+.book-text input {
+  padding: 14px 114px;
+  border-radius: 18px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 18px;
+  border-style: none;
+  box-shadow: 1px 1px 8px rgba(119, 119, 119, 0.486);
+}
+#date, #email {
+  padding: 14px 10px;
+  color: #777;
+  margin-right: 3px;
+}
+#message {
+  font-size: 18px;
+  width: 420px;
+  height: 135px;
+  padding: 15px 0px 0px 15px;
+  border-style: none;
+  border-radius: 25px;
+  box-shadow: 1px 1px 8px rgba(119, 119, 119, 0.486);
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.submit {
+  padding: 13px 139px;
+  border-radius: 25px;
+  border-style: none;
+  margin-left: 5px;
+  font-size: 20px;
+  font-weight: 700;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+  border: 1px solid orange;
 }
